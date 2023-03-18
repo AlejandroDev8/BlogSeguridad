@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="Preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    />
+    <link rel="Preload" href="css/styles.css" as="style" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Blog sobre la Seguridad</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Contenedor del logo y la barra de navegación -->
+      <div class="contenedor">
+        <div class="barra">
+          <a href="index.html" class="logo">
+            <h1 class="logo__nombre no-margin centrar-texto">
+              Blog<span class="logo__bold">DeSeguridad</span>
+            </h1>
+          </a>
+          <nav class="nav">
+            <a href="index.html" class="nav__enlace">Inicio</a>
+            <a href="#" class="nav__enlace">Seguridad</a>
+            <a href="#" class="nav__enlace">navegación</a>
+          </nav>
+        </div>
+      </div>
+      <!-- Texto principal de la página -->
+      <div class="header__texto">
+        <h2 class="no-margin">Blog sobre la Seguridad de las Bases de Datos</h2>
+        <p class="no-margin">
+          Aquí conocerás temas e información relacionados a la Seguridad de las Bases de Datos.
+        </p>
+        <p class="no">
+          Al igual que las Políticas de Seguridad en los Sistemas de Datos Personales.
+        </p>
+      </div>
+    </header>
+    <!-- Contenedor del contenido del Blog -->
+    <div class="contenedor contenido-principal">
+      <main class="blog">
+        <h3>Seguridad de las bases de datos</h3>
+        <!-- Artículos del Blog -->
+        <article class="entrada">
+          <!-- Imagen del primer artículo -->
+          <div class="entrada__imagen">
+            <img loading="lay" src="img/01.jpg" alt="Imagen del blog">
+          </div>
+          <!-- Contenido del primer Artículo -->
+          <div class="entrada__contenido">
+            <h4 class="no-margin">¿Qué es la seguridad de las bases de datos?</h4>
+            <p>
+              La seguridad de las bases de datos se refiere al conjunto de herramientas, medidas y controles diseñados para establecer y mantener la confidencialidad, la integridad y la disponibilidad de las bases de datos.
+            </p>
+            <a href="#" class="boton boton--primario">Seguir Leyendo</a>
+          </div>
+        </article>
+        <article class="entrada">
+          <!-- Imagen del primer artículo -->
+          <div class="entrada__imagen">
+            <img loading="lay" src="img/02.jpg" alt="Imagen del blog">
+          </div>
+          <!-- Contenido del primer Artículo -->
+          <div class="entrada__contenido">
+            <h4 class="no-margin">¿Por qué es importante?</h4>
+            <p>
+              Por definición, una infracción de datos es la incapacidad de mantener la confidencialidad de los datos en una base de datos. La cantidad de daño que las infracciones de datos infligen a su empresa dependen de varios factores o de sus consecuencias.
+            </p>
+            <a href="#" class="boton boton--primario">Seguir Leyendo</a>
+          </div>
+        </article>
+        <article class="entrada">
+          <!-- Imagen del primer artículo -->
+          <div class="entrada__imagen">
+            <img loading="lay" src="img/03.jpg" alt="Imagen del blog">
+          </div>
+          <!-- Contenido del primer Artículo -->
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Amenazas y dificultades habituales</h4>
+            <p>
+              Son muchas las configuraciones erróneas de software, vulnerabilidades o patrones de descuido o mal uso que pueden dar lugar a una infracción. Los siguientes son los tipos o causas más habituales de los ataques de seguridad de base de datos y sus causas.
+            </p>
+            <a href="#" class="boton boton--primario">Seguir Leyendo</a>
+          </div>
+        </article>
+      </main>
+      <!-- Aside, contenido no tan relevante -->
+      <aside class="sidebar">
+        <h3>Páginas donde puedes encontrar más información si te interesa</h3>
+        <ul class="cursos no-padding">
+          <li class="widget-curso">
+            <h4 class="no-margin">Seguridad de las Bases de Datos</h4>
+            <p class="widget-curso__info">
+              Información relacionada al tema <span class="widget-curso__label">"Seguridad de las Bases de Datos".</span>
+            </p>
+            <img src="img/aside01.jpg" loading="lazy" alt="Imagen relacionada">
+            <a href="https://www.oracle.com/mx/security/database-security/" target="_blank"  class="boton boton--secundario">
+              Leer Artículo
+            </a>
+          </li>
+          <!-- Segundo Curso -->
+          <li class="widget-curso">
+            <h4 class="no-margin">Seguridad de las Bases de Datos</h4>
+            <p class="widget-curso__info">
+              Información relacionada al tema <span class="widget-curso__label">"Seguridad de las Bases de Datos".</span>
+            </p>
+            <img src="img/aside02.jpg" loading="lazy" alt="Imagen relacionada">
+            <a href="https://blog.hubspot.es/marketing/que-es-seguridad-base-de-datos" target="_blank" class="boton boton--secundario"
+              >Leer Artículo</a
+            >
+          </li>
+          <li class="widget-curso">
+            <h4 class="no-margin">Seguridad de las Bases de Datos</h4>
+            <p class="widget-curso__info">
+              Información relacionada al tema <span class="widget-curso__label">"Seguridad de las Bases de Datos".</span>
+            </p>
+            <img src="img/aside03.jpg" loading="lazy" alt="Imagen relacionada">
+            <a href="https://blog.onyxsystems.es/seguridad-en-bases-de-datos/" target="_blank" class="boton boton--secundario"
+              >Leer Artículo</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>
