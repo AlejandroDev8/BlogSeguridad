@@ -10,6 +10,7 @@
   --primario: #1d3557;
   --secundario: #03045e;
   --terciario: #00b4d8;
+  --amarillo: #ffc107;
 }
 
 html {
@@ -118,6 +119,10 @@ img {
   color: var(--blanco);
   font-weight: 700;
 }
+.logo__bold2 {
+  color: var(--negro);
+  font-weight: 700;
+}
 @media (min-width: 768px) {
   .nav {
     display: flex;
@@ -129,6 +134,9 @@ img {
   text-align: center;
   font-size: 1.8rem;
   color: var(--blanco);
+}
+.nav__enlace:hover {
+  color: var(--amarillo);
 }
 
 /* Contenido del blog */
@@ -173,6 +181,7 @@ main h3 {
 }
 .boton:hover {
   cursor: pointer;
+  color: var(--amarillo);
 }
 .boton--primario {
   background-color: var(--primario);
@@ -213,4 +222,14 @@ aside h4 {
 .widget-curso__label,
 .widget-curso__info {
   font-size: 2rem;
+}
+
+.footer {
+  background-color: var(--primario);
+  padding-bottom: 1rem;
+  margin-top: 4rem;
+}
+.icon {
+  width: 5rem;
+  height: 5rem;
 }
